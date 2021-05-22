@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML5, CCS3,JAVASCRIPT, JQUERY, JSON, REST">
+    <meta name="author" content="Andrey V.">
+    <title>Diseño de Apliciones Web Home</title>
+</head>
+
+<body style="background-image: url('img/background-1.jpeg');">
+    <img src="img/web_banner_1.png" alt width="155px" height="100px" align ="left">
+    <h1>ISW-Ingenieria del Software</h1>
+    <h2>Diseño de Aplicaciones Web</h2>
+    <br>
+    <hr>
+    <a href="index.html">Home</a>
+    <hr>
+    <h3>Índice</h3>
+    <ol>
+        <li><a href="https://www.w3schools.com/html/html_tables.asp">Información General</a></li>
+        <li><a href="tb">Tabla Básica</a></li>
+        <li><a href="ta">Tabla Avanzada</a></li>
+        <li><a href="tat">Tabla Avanzada con Título</a></li>
+        <li><a href="tcc">Tabla con Celdas Combinadas</a></li>
+    </ol>
+   <h3>
+    Información General</h3>
+    <p>En HTML, una poderosa herramienta a la hora de mostrar cierto tipo de información son las tablas. Hay muchos sitios que por su naturaleza no usan tablas aunque existen algunas ocasiones en que el papel de las tablas se vuelve esencial.
+    </p>
+    <p>El fin de las tablas es preferentemente contener datos ordenados en celdas (filas y columnas). En principio, no deben ser usadas para crear divisiones de cara a mostrar una página web, es decir, es preferible que una página web no esté dividida en distintos espacios usando tablas. Para maquetar una página web y dividirla en distintos espacios se usarán otras herramientas (capas, elementos flotantes, etc.).
+    </p>
+    <p>Las tablas pueden ser consideradas como un grupo de filas donde cada una de ellas contiene un grupo de celdas. Una tabla puede ser insertada en un documento HTML usando tres elementos básicos: el elemento TABLE (estructura contenedora principal), el elemento TR (contenedor de fila) y el elemento TD (celda).</p>
+    <h3 id="tb">Tabla Basica</h3>
+    <table border="1">
+        <tr>
+            <td>1234</td>
+            <td>Juan</td>
+            <td>juan@utn.ac.cr</td>
+            <td>24-05-200</td>
+        </tr>
+
+        <tr>
+            <td>9876	</td>
+            <td>Ana	 </td>
+            <td>ana@utn.ac.cr</td>
+            <td>06-08-1998</td>
+        </tr>
+
+        <tr>
+            <td>5678	</td>
+            <td>Pedro	 </td>
+            <td>pedro@utn.ac.cr</td>
+            <td>19-03-1989</td>
+        </tr>
+       
+
+        <tr>
+            <td>7765</td>
+            <td>Maria</td>
+            <td>maria@utn.ac.cr</td>
+            <td>12-01-2010</td>
+        </tr>
+        
+        <tr>
+            <td>3346</td>
+            <td>Carlos</td>
+            <td>carlos@utn.ac.cr</td>
+            <td>21-01-2021</td>
+        </tr>
+        
+        <tr>
+            <td>9908</td>
+            <td>Gabriela</td>
+            <td>gabriela@utn.ac.cr</td>
+            <td>07-08-1999</td>
+        </tr>
+
+    </table>
+  
+    <h3 id="ta">Tabla Avanzada</h3>
+
+    <table border="1">
+        
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Fecha de Nacimiento</th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+             <td>1234</td>
+             <td>Juan</td>
+             <td>juan@utn.ac.cr</td>
+             <td>24-05-200</td>
+         </tr>
+ 
+         <tr>
+             <td>9876	</td>
+             <td>Ana	 </td>
+             <td>ana@utn.ac.cr</td>
+             <td>06-08-1998</td>
+         </tr>
+ 
+         <tr>
+             <td>5678	</td>
+             <td>Pedro	 </td>
+             <td>pedro@utn.ac.cr</td>
+             <td>19-03-1989</td>
+         </tr>
+        
+ 
+         <tr>
+             <td>7765</td>
+             <td>Maria</td>
+             <td>maria@utn.ac.cr</td>
+             <td>12-01-2010</td>
+         </tr>
+         
+         <tr>
+             <td>3346</td>
+             <td>Carlos</td>
+             <td>carlos@utn.ac.cr</td>
+             <td>21-01-2021</td>
+         </tr>
+         
+         <tr>
+             <td>9908</td>
+             <td>Gabriela</td>
+             <td>gabriela@utn.ac.cr</td>
+             <td>07-08-1999</td>
+         </tr>
+        </tbody>
+        
+        <tfoot>
+         <tr>
+             <td>FOOT</td>
+             <td>FOOT</td>
+             <td>FOOT</td>
+             <td>FOOT</td>
+         </tr>
+        </tfoot>
+        
+ 
+     </table>
+
+    
+    <h3 id="tat">Tabla Avanzada con Título</h3>
+    <table border="1">
+        <caption>Lista Estudiantes del Curso</caption>
+        
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Fecha de Nacimiento</th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+             <td>1234</td>
+             <td>Juan</td>
+             <td>juan@utn.ac.cr</td>
+             <td>24-05-200</td>
+         </tr>
+ 
+         <tr>
+             <td>9876	</td>
+             <td>Ana	 </td>
+             <td>ana@utn.ac.cr</td>
+             <td>06-08-1998</td>
+         </tr>
+ 
+         <tr>
+             <td>5678	</td>
+             <td>Pedro	 </td>
+             <td>pedro@utn.ac.cr</td>
+             <td>19-03-1989</td>
+         </tr>
+        
+ 
+         <tr>
+             <td>7765</td>
+             <td>Maria</td>
+             <td>maria@utn.ac.cr</td>
+             <td>12-01-2010</td>
+         </tr>
+         
+         <tr>
+             <td>3346</td>
+             <td>Carlos</td>
+             <td>carlos@utn.ac.cr</td>
+             <td>21-01-2021</td>
+         </tr>
+         
+         <tr>
+             <td>9908</td>
+             <td>Gabriela</td>
+             <td>gabriela@utn.ac.cr</td>
+             <td>07-08-1999</td>
+         </tr>
+        </tbody>
+        
+        <tfoot>
+         <tr>
+             <td>FOOT</td>
+             <td>FOOT</td>
+             <td>FOOT</td>
+             <td>FOOT</td>
+         </tr>
+        </tfoot>
+        
+ 
+     </table>
+    <h3 id="tcc">Tabla con Celdas Combinadas</h3>
+    <table border="1">
+        <caption>Lista Estudiantes del Curso</caption>
+        
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Fecha de Nacimiento</th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+             <td>1234</td>
+             <td>Juan</td>
+             <td>juan@utn.ac.cr</td>
+             <td>24-05-200</td>
+         </tr>
+ 
+         <tr>
+             <td>9876	</td>
+             <td>Ana	 </td>
+             <td>ana@utn.ac.cr</td>
+             <td>06-08-1998</td>
+         </tr>
+ 
+         <tr>
+             <td colspan="2">5678</td>
+             <!--<td>Pedro</td>-->  
+             <td>pedro@utn.ac.cr</td>
+             <td>19-03-1989</td>
+         </tr>
+        
+ 
+         <tr>
+             <td>7765</td>
+             <td>Maria</td>
+             <td rowspan="3">maria@utn.ac.cr</td>
+             <td>12-01-2010</td>
+         </tr>
+         
+         <tr>
+             <td>3346</td>
+             <td>Carlos</td>
+             <!-- <td>carlos@utn.ac.cr</td> -->
+             <td>21-01-2021</td>
+         </tr>
+         
+         <tr>
+             <td>9908</td>
+             <td>Gabriela</td>
+             <td>gabriela@utn.ac.cr</td>
+             <td>07-08-1999</td>
+         </tr>
+        </tbody>
+        
+        <tfoot>
+         <tr>
+             <td>FOOT</td>
+             <td>FOOT</td>
+             <td>FOOT</td>
+             <td>FOOT</td>
+         </tr>
+        </tfoot>
+        
+ 
+     </table>
+  
+    <h3>Informacion de Referencia</h3>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">Manual de Html W3schools</a></li>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">Guia de Html Mozilla</a></li>
+    </ul>
+    <center>
+        <img src="img/logoISW.png" alt="">
+        <br>
+        <p>Derechos Reservados ISw-DAW II UTN 2021</p>
+    </center>
+</body>
+
+</html>
